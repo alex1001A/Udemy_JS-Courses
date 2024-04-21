@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        const newPost = (post, addAt = Date()) => {
+            return ({
+                ...post,
+                addAt,
+            })
+        }
+
+        const firstPost = {
+            id: 1,
+            name: 'Alex'
+        }
+
+        console.log(newPost(firstPost));
+        console.log({ ...firstPost });
+        console.log(firstPost);
+
+        firstPost.id = 2
+
+        console.log({ ...firstPost, 'country': 'Ukraine' });
+        console.table(firstPost);
+
+
+    </script>
+</body>
+
+</html>
