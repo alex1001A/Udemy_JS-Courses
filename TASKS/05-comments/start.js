@@ -7,3 +7,11 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+//hi
+
+const name = 'Alex' // it's my name
+
+//my name
+//is
+//Alex
