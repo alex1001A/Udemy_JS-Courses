@@ -10,3 +10,9 @@
  *
  * 5. Результат вызовов функции выведите в консоль
  */
+
+const arr = ['first', 'second', 'third']
+
+arr.forEach((el, i, array) => {
+    console.log(el, i, array);
+})
