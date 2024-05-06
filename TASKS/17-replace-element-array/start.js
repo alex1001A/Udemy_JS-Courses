@@ -8,3 +8,12 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const arr = [null, 'Alex', true, 10, false]
+
+// console.log(arr);
+
+arr[0] = undefined
+
+// console.log(arr);
+

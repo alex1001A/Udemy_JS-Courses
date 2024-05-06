@@ -12,3 +12,8 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const str = new String('football')
+const str1 = str.toLocaleUpperCase()
+
+console.log(typeof str);

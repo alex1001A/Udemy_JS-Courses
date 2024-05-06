@@ -13,8 +13,15 @@
  * 4. Вызовите функцию
  */
 
+/**
+ * Возвращает разницу двух чисел
+ * @param {number} a 
+ * @param {number} b 
+ * @returns {number} Разница чисел
+ */
+
 const someFn = (a, b) => {
     return a - b 
 }
 
-console.log(someFn(3, 6))
+// console.log(someFn(3, 6))

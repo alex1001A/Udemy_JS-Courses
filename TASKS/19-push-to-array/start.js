@@ -6,3 +6,9 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+const arr = ['Alex', 'Vlad', 'Natali', 'Dima']
+
+arr.push('Lena', 'Richie')
+
+console.log(arr, arr.length);

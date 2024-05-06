@@ -6,3 +6,7 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+const arr = [10, 'Alex', true]
+
+console.log(arr[0], arr.length);

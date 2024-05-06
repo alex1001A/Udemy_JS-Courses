@@ -5,3 +5,13 @@
  * 2. Используя один из методов массивов, переберите все элементы
  * и выведите каждый элемент в консоль
  */
+
+const arr = ['Alex', 'Vlad', 'Natali', 'Dima']
+
+const map = arr.map(item => {
+    console.log(item)
+})
+const forEach = arr.forEach(item => {
+    console.log(item)
+})
+
