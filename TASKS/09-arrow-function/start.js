@@ -11,5 +11,10 @@
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
 
-const sum = (a, b) => a + b
-console.log(sum(2, 6));
+const helloW = () => {
+    return 'Hello world!'
+}
+console.log(helloW());
+
+const helloW1 = () => 'Hello world!'
+console.log(helloW1());

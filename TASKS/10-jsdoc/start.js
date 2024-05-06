@@ -12,3 +12,9 @@
  *
  * 4. Вызовите функцию
  */
+
+const someFn = (a, b) => {
+    return a - b 
+}
+
+console.log(someFn(3, 6))
