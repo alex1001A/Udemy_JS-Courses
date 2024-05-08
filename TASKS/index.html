@@ -113,6 +113,20 @@
         // const url = 'https://jsonplaceholder.typicode.com/posts'
 
         // getData(url)
+
+        //1,4,2,5,3
+        console.log('1'); // 1
+
+        Promise.resolve('2')
+        .then((data) => console.log(data)) // 3
+
+        setTimeout(() => {
+            setTimeout(() => console.log('3'), 0)
+        }, 0) // 5
+
+        console.log('4'); // 2
+
+        setTimeout(() => console.log('5'), 0) // 4
     </script>
     <!-- <script src="./09-arrow-function/start.js"></script> -->
     <!-- <script src="./10-jsdoc/start.js"></script> -->
